@@ -1,0 +1,39 @@
+<mvc:View controllerName="Hybrid.Test.controller.S1" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="">
+				<customHeader>
+					<Bar>
+						<contentMiddle>
+							<Label text="Work Manager Login " class="bigLabel"></Label>
+						</contentMiddle>
+					</Bar>
+				</customHeader>
+				<content>
+					<l:Grid id="Login_Grid" class="sapUiSmallMarginTop" defaultSpan="L4 M4 S12">
+						<l:content>
+							<Label id="Login_label2"></Label>
+							<VBox id="Login_VBox" class="Login_VBox">
+								<Label id="Login_label" text="Login to your account" class="Login_label"></Label>
+								<Label id="Login_label1"></Label>
+								<Input id="username" placeholder="Username"></Input>
+								<Input id="password" placeholder="Password"></Input>
+								<Button text="Login" type="Emphasized" width="60%" press="onPressSubmit"></Button>
+								<!--<Link text="Forgot Password" class="bigLabel1" press="onPressSubmit1"/>-->
+							</VBox>
+							<Label></Label>
+						</l:content>
+					</l:Grid>
+				</content>
+				<footer>
+					<Bar>
+						<contentMiddle>
+							<!-- <Text text="©manipalglobal education services ALL RIGHTS RESERVED" />-->
+						</contentMiddle>
+					</Bar>
+				</footer>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
